@@ -16,10 +16,10 @@
     <main>
         <div class="top-section">
             <h1>Boas-vindas!</h1>
-            <button>Levar para Viagem</button>
+            <button id="topButton">Levar para Viagem</button>
         </div>
         <div class="bottom-section">
-            <button>Comer Aqui</button>
+            <button id="bottomButton">Comer Aqui</button>
         </div>
     </main>
 </body>

@@ -1,17 +1,21 @@
+/* Importa a fonte 'Poppins' do Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+/* Define estilos básicos para todos os elementos */
 * {
     margin: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
 
+/* Estiliza o corpo da página */
 body {
     background-color: #D9D9D9;
     width: 100vw;
     height: 100vh;
 }
 
+/* Estilo base da div superior */
 .top-section {
     padding: 20px;
     background-color: #D9D9D9;
@@ -23,14 +27,16 @@ body {
     flex-direction: column;
 }
 
+/* Define o tamanho e espaçamento entre o 'Boas-vindas!' e o botão */
 .top-section h1 {
     font-size: 1.5rem;
-    margin-bottom: 40%;
+    margin-bottom: 40%; /* Define um espaçamento entre o título e o botão */
 }
 
-.top-section button {
+/* Estilo básico e alinhamento do botão laranja */
+.top-section #topButton {
     position: absolute;
-    bottom: 20px;
+    bottom: 20px; /* Alinha o botão no fim da div, mas deixa 20px de espaçamento */
     width: 90%;
     height: 20%;
     border-radius: 15px;
@@ -40,8 +46,10 @@ body {
     color: #FFFFFF;
     font-size: 1rem;
     font-weight: 500;
+    transition: background-color 0.3s; /* Transição suave de cor quando o mouse passa sobre o botão */
 }
 
+/* Estilo base da div inferior */
 .bottom-section {
     padding: 20px;
     border-radius: 15px 15px 0 0;
@@ -54,9 +62,10 @@ body {
     flex-direction: column;
 }
 
-.bottom-section button {
+/* Estilo e alinhamento do botão preto */
+.bottom-section #bottomButton {
     position: absolute;
-    top: 20px;
+    top: 20px; /* Alinha o botão no início da div, mas deixa 20px de espaçamento */
     width: 90%;
     height: 20%;
     border-radius: 15px;
@@ -66,4 +75,10 @@ body {
     color: #FFFFFF;
     font-size: 1rem;
     font-weight: 500;
+    transition: background-color 0.3s; /* Transição suave de tamanho quando clicado no botão */
+}
+
+/* Efeito quando se clica nos botões */
+.top-section #topButton:active, .bottom-section #bottomButton:active {
+    transform: scale(0.95); /* Reduz o tamanho do botão quando clicado */
 }
