@@ -13,6 +13,7 @@
 </head>
 
 <body>
+    <div class="notification"></div>
     <main>
         <div class="top-section">
             <h1>Boas-vindas!</h1>
@@ -22,6 +23,7 @@
             <button id="bottomButton">Comer Aqui</button>
         </div>
     </main>
+    <script src="index.js"></script>
 </body>
 
 </html>

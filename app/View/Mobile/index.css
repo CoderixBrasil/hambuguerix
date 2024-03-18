@@ -25,6 +25,7 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    transition: height 0.5s ease;
 }
 
 /* Define o tamanho e espaçamento entre o 'Boas-vindas!' e o botão */
@@ -60,6 +61,7 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    transition: height 0.5s ease;
 }
 
 /* Estilo e alinhamento do botão preto */
@@ -79,6 +81,15 @@ body {
 }
 
 /* Efeito quando se clica nos botões */
-.top-section #topButton:active, .bottom-section #bottomButton:active {
+.top-section #topButton:active {
     transform: scale(0.95); /* Reduz o tamanho do botão quando clicado */
+}
+
+/* Efeito quando se clica nos botões */
+.bottom-section #bottomButton:active {
+    transform: scale(0.95); /* Reduz o tamanho do botão quando clicado */
+}
+
+.aumentar-altura {
+    height: 80vh !important; /* Altera a altura para 80vh */
 }
