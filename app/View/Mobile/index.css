@@ -80,6 +80,37 @@ body {
     transition: background-color 0.3s; /* Transição suave de tamanho quando clicado no botão */
 }
 
+.bottom-section #tablePicker {
+    display: none;
+    width: 90%;
+    height: 12%;
+    position: absolute;
+    top: 20%;
+    outline: none;
+    border: none;
+    border-radius: 15px;
+    padding: 10px;
+    background-color: #D9D9D9;
+    font-size: 1.1rem;
+    font-weight: 500;
+    transition: 0.5s;
+}
+
+.bottom-section #buttonMenu {
+    display: none;
+    position: absolute;
+    bottom: 0;
+    width: 100vw;
+    height: 12%;
+    border: none;
+    border-radius: 15px 15px 0 0;
+    background-color: #000000;
+    color: #FFFFFF;
+    font-size: 1rem;
+    font-weight: 500;
+    transition: 0.5s;
+}
+
 /* Efeito quando se clica nos botões */
 .top-section #topButton:active {
     transform: scale(0.95); /* Reduz o tamanho do botão quando clicado */
@@ -88,6 +119,10 @@ body {
 /* Efeito quando se clica nos botões */
 .bottom-section #bottomButton:active {
     transform: scale(0.95); /* Reduz o tamanho do botão quando clicado */
+}
+
+.bottom-section #buttonMenu:active {
+    background-color: #635A58; /* Reduz o tamanho do botão quando clicado */
 }
 
 .aumentar-altura {
