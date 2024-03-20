@@ -20,13 +20,13 @@
         </div>
         <div class="bottom-section" id="bottomSection">
             <button id="bottomButton">Comer Aqui</button>
-            <select class="table-picker" id="tablePicker">
+            <select id="tablePicker">
                 <option value="">Selecione uma mesa</option>
                 <option value="mesa1">Mesa 1</option>
                 <option value="mesa2">Mesa 2</option>
                 <option value="mesa3">Mesa 3</option>
             </select>
-            <button class="button-menu" id="buttonMenu">Ver Cardápio ></button>
+            <button id="buttonMenu">Ver Cardápio ></button>
         </div>
     </main>
     <script src="index.js"></script>

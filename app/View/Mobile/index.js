@@ -24,10 +24,10 @@ document.getElementById("buttonMenu").addEventListener('click', function() {
 function showNotification(message) {
     let notification = document.getElementById("notification");
     notification.textContent = message;
-    notification.style.display = 'block'
-};
+    notification.style.display = 'block';
+}
 
 function hiddenNotification() {
     let notification = document.getElementById("notification");
     notification.style.display = 'none';
-};
+}

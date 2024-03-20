@@ -15,6 +15,7 @@ body {
     height: 100vh;
 }
 
+/* Estilo para a seção superior */
 .top-section {
     padding: 20px;
     background-color: #D9D9D9;
@@ -27,16 +28,19 @@ body {
     transition: height 0.3s ease;
 }
 
+/* Estilo para o contêiner do menu de busca */
 .top-section .menu-search {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 18%;
+    margin-bottom: 18%; /* Espaçamento entre o menu de busca e o título */
 }
 
+/* Estilo para as imagens dentro do menu de busca */
 .top-section .menu-search img {
     width: 8%;
 }
 
+/* Estilo para o título da seção superior */
 .top-section h1 {
     position: absolute;
     left: 20px;
@@ -44,6 +48,7 @@ body {
     font-size: 1.5rem;
 }
 
+/* Estilo para a seção inferior */
 .bottom-section {
     padding: 20px;
     border-radius: 15px 15px 0 0;
@@ -57,6 +62,7 @@ body {
     transition: height 0.3s ease;
 }
 
+/* Estilo para o contêiner dos ícones de filtro do menu */
 .filter-icons-menu {
     display: flex;
     justify-content: space-between;
@@ -65,10 +71,12 @@ body {
     top: 20px;
 }
 
+/* Estilo para as imagens dentro do contêiner de ícones de filtro */
 .bottom-section .filter-icons-menu img {
     width: 20%;
 }
 
+/* Estilo para o contêiner de detalhes do item */
 .bottom-section .details-item {
     position: absolute;
     top: 25%;
@@ -82,18 +90,21 @@ body {
     border-radius: 15px;
 }
 
+/* Estilo para a imagem do hambúrguer dentro do contêiner de detalhes do item */
 .bottom-section .details-item .image-hamburg {
     float: left;
     margin-right: 5px;
     width: 20%;
 }
 
+/* Estilo para o ícone de adicionar dentro do contêiner de detalhes do item */
 .bottom-section .details-item .icon-add {
     float: right;
     margin-left: 10px;
     width: 8%;
 }
 
+/* Estilo para o contêiner de texto dentro do contêiner de detalhes do item */
 .bottom-section .details-item .text-container {
     display: flex;
     flex-direction: column; 
@@ -101,10 +112,12 @@ body {
     margin: 0 10px;
 }
 
+/* Estilo para o título, parágrafo e subtítulo dentro do contêiner de detalhes do item */
 .bottom-section .details-item h2, p, h3 {
     font-size: .9rem;
 }
 
+/* Estilo para a navegação inferior */
 .bottom-navigation {
     z-index: 5;
     position: absolute;
@@ -116,10 +129,11 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 20px;
+    padding: 0 20px; /* Espaçamento interno nas laterais */
 }
 
+/* Estilo para as imagens na navegação inferior */
 .bottom-navigation img {
     width: 8%;
-    filter: brightness(0) invert(1);
+    filter: brightness(0) invert(1); /* Inverte as cores da imagem para branco */
 }

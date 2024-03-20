@@ -97,7 +97,7 @@ body {
     transition: background-color 0.3s; /* Transição suave de tamanho quando clicado no botão */
 }
 
-.bottom-section .table-picker {
+.bottom-section #tablePicker {
     display: none;
     width: 90%;
     height: 12%;
@@ -113,7 +113,7 @@ body {
     transition: 0.5s;
 }
 
-.bottom-section .button-menu {
+.bottom-section #buttonMenu {
     display: none;
     position: absolute;
     bottom: 0;
