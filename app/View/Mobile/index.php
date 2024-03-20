@@ -13,7 +13,7 @@
 </head>
 
 <body>
-    <div class="notification"></div>
+    <div id="notification"></div>
     <main>
         <div class="top-section" id="topSection">
             <h1>Boas-vindas!</h1>

@@ -15,6 +15,23 @@ body {
     height: 100vh;
 }
 
+#notification {
+    display: none;
+    position: absolute;
+    top: 10px;
+    z-index: 2;
+    text-align: center;
+    width: 90vw;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: red;
+    color: #FFFFFF;
+    font-size: 1rem;
+    font-weight: 500;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
 /* Estilo base da div superior */
 .top-section {
     padding: 20px;

@@ -8,3 +8,26 @@ document.getElementById("bottomButton").addEventListener("click", function() {
     document.getElementById("buttonMenu").style.display = "inline";
 });
 
+document.getElementById("buttonMenu").addEventListener('click', function() {
+    let tableChooser = document.getElementById("tablePicker").value;
+
+    if (tableChooser === '') {
+        showNotification('Por favor, escolha sua Mesa');
+        setTimeout(function() {
+            hiddenNotification();
+        }, 3000);
+    } else {
+        window.location.href = '#';
+    }
+});
+
+function showNotification(message) {
+    let notification = document.getElementById("notification");
+    notification.textContent = message;
+    notification.style.display = 'block'
+}
+
+function hiddenNotification() {
+    let notification = document.getElementById("notification");
+    notification.style.display = 'none';
+}
