@@ -1,0 +1,125 @@
+/* Importa a fonte 'Poppins' do Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* Define estilos básicos para todos os elementos */
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Estiliza o corpo da página */
+body {
+    background-color: #D9D9D9;
+    width: 100vw;
+    height: 100vh;
+}
+
+.top-section {
+    padding: 20px;
+    background-color: #D9D9D9;
+    height: 20vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transition: height 0.3s ease;
+}
+
+.top-section .menu-search {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 18%;
+}
+
+.top-section .menu-search img {
+    width: 8%;
+}
+
+.top-section h1 {
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+    font-size: 1.5rem;
+}
+
+.bottom-section {
+    padding: 20px;
+    border-radius: 15px 15px 0 0;
+    background-color: #FFA500;
+    height: 80vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transition: height 0.3s ease;
+}
+
+.filter-icons-menu {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    position: absolute;
+    top: 20px;
+}
+
+.bottom-section .filter-icons-menu img {
+    width: 20%;
+}
+
+.bottom-section .details-item {
+    position: absolute;
+    top: 25%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90vw;
+    height: auto;
+    background-color: #D9D9D9;
+    border-radius: 15px;
+}
+
+.bottom-section .details-item .image-hamburg {
+    float: left;
+    margin-right: 5px;
+    width: 20%;
+}
+
+.bottom-section .details-item .icon-add {
+    float: right;
+    margin-left: 10px;
+    width: 8%;
+}
+
+.bottom-section .details-item .text-container {
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-start;
+    margin: 0 10px;
+}
+
+.bottom-section .details-item h2, p, h3 {
+    font-size: .9rem;
+}
+
+.bottom-navigation {
+    z-index: 5;
+    position: absolute;
+    bottom: 0;
+    width: 100vw;
+    height: 12%;
+    background-color: #000000;
+    border-radius: 15px 15px 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.bottom-navigation img {
+    width: 8%;
+    filter: brightness(0) invert(1);
+}
