@@ -49,7 +49,9 @@ CREATE TABLE IF NOT EXISTS `item`(
     description VARCHAR(150),
     price FLOAT,
     category VARCHAR(15) NOT NULL,
-    is_side_dish BOOLEAN NOT NULL
+    is_side_dish BOOLEAN NOT NULL,
+    id_side_dish INT,
+    CONSTRAINT fk_id_side_dish FOREIGN KEY(id_side_dish) REFERENCES item(id) ON DELETE SET NULL
 );
 
 -- Cria a tabela 'item_bill'
