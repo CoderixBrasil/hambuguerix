@@ -12,7 +12,7 @@
 body {
     background-color: #D9D9D9;
     width: 100vw;
-    height: 100vh;
+    height: 100svh;
 }
 
 #notification {
@@ -36,7 +36,7 @@ body {
 .top-section {
     padding: 20px;
     background-color: #D9D9D9;
-    height: 50vh;
+    height: 50svh;
     position: relative;
     display: flex;
     justify-content: center;
@@ -72,7 +72,7 @@ body {
     padding: 20px;
     border-radius: 15px 15px 0 0;
     background-color: #FFA500;
-    height: 50vh;
+    height: 50svh;
     position: relative;
     display: flex;
     justify-content: center;
@@ -97,7 +97,7 @@ body {
     transition: background-color 0.3s; /* Transição suave de tamanho quando clicado no botão */
 }
 
-.bottom-section #tablePicker {
+#tablePicker {
     display: none;
     width: 90%;
     height: 12%;
@@ -113,7 +113,7 @@ body {
     transition: 0.5s;
 }
 
-.bottom-section #buttonMenu {
+#buttonMenu {
     display: none;
     position: absolute;
     bottom: 0;
