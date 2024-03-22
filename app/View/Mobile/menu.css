@@ -12,7 +12,7 @@
 body {
     background-color: #D9D9D9;
     width: 100vw;
-    height: 100vh;
+    height: 100svh;
 }
 
 /* Estilo para a seção superior */
@@ -28,9 +28,27 @@ body {
     transition: height 0.3s ease;
 }
 
+#notification {
+    display: none;
+    position: absolute;
+    top: 10px;
+    z-index: 2;
+    text-align: center;
+    width: 90vw;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: red;
+    color: #FFFFFF;
+    font-size: 1rem;
+    font-weight: 500;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
 /* Estilo para o contêiner do menu de busca */
 .top-section .menu-search {
     display: flex;
+    align-items: center;
     justify-content: space-between;
     margin-bottom: 18%; /* Espaçamento entre o menu de busca e o título */
 }
@@ -38,6 +56,26 @@ body {
 /* Estilo para as imagens dentro do menu de busca */
 .top-section .menu-search img {
     width: 8%;
+}
+
+#inputSearch {
+    display: none;
+    width: 70%;
+    height: auto;
+    padding: 2px 0 2px 8px;
+    position: absolute;
+    right: 13%;
+    border: 2px solid #000000;
+    outline: none;
+    background-color: #FFA500;
+    color: #000000;
+    font-weight: 500;
+    border-radius: 10px;
+    transition: .5s ease;
+}
+
+#inputSearch::placeholder {
+    color: #000000;
 }
 
 /* Estilo para o título da seção superior */

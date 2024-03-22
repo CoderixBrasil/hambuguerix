@@ -1,7 +1,7 @@
 document.getElementById("bottomButton").addEventListener("click", function() {
     document.getElementById("topButton").style.display = "none";
-    document.getElementById("topSection").style.height = "20vh";
-    document.getElementById("bottomSection").style.height = "80vh";
+    document.getElementById("topSection").style.height = "20svh";
+    document.getElementById("bottomSection").style.height = "80svh";
     document.querySelector(".top-section h1").style.marginBottom = "10%";
     document.getElementById("bottomButton").style.height = "12%";
     document.getElementById("tablePicker").style.display = "inline";
