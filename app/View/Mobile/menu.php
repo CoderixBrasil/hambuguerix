@@ -38,11 +38,11 @@
                     <p>Detalhes do hamburguer</p>
                     <h3>R$ 35,90</h3>
                 </div>
-                <img src="../src/carrinho.png" class="icon-add" alt="">
+                <img src="../src/carrinho.png" class="icon-add" alt="searchIcon">
             </div>
             <div class="bottom-navigation">
                 <img src="../src/carrinho.png" alt="icone de carrinho de compras">
-                <img src="../src/lupa.png" alt="icone de lupa pesquisar">
+                <img src="../src/lupa.png" alt="icone de lupa pesquisar" id="searchBottom">
                 <img src="../src/cupom.png" alt="icone de cupom de desconto">
                 <img src="../src/do-utilizador.png" alt="icone de usuario">
             </div>
