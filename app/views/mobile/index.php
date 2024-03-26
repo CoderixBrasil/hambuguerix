@@ -29,6 +29,7 @@
                 <option value="mesa3">Mesa 3</option>
             </select>
             <button id="buttonMenu">Ver Cardápio ></button>
+            <a href="../../controllers/ItemController.php?operation=listAll">OLÁ</a>
         </div>
     </main>
     <script src="./src/js/index.js"></script>
