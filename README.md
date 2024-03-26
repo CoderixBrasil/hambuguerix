@@ -4,7 +4,13 @@
 
 - [Hamburguerix](#hamburguerix)
   - [Indice](#indice)
+  - [Stack](#stack)
   - [Links úteis](#links-úteis)
+
+## Stack
+
+- Versão do PHP: 8.2.12
+- Versão do Composer: 2.7.2
 
 ## Links úteis
 
