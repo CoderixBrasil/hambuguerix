@@ -10,8 +10,7 @@
     <meta http-equiv="Pragma" content="no-cache">
     <meta http-equiv="Expires" content="0">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="./src/css/index.css">
     <title>Hamburguerix - Boas-vindas</title>
 </head>
 <body>
@@ -32,6 +31,6 @@
             <button id="buttonMenu">Ver Cardápio ></button>
         </div>
     </main>
-    <script src="index.js"></script>
+    <script src="./src/js/index.js"></script>
 </body>
 </html>
