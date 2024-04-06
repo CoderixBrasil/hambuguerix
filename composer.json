@@ -1,19 +1,14 @@
 {
     "name": "coderix/hamburguerix",
-    "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Coderix\\Hamburguerix\\": "src/"
+            "Coderix\\Hamburguerix\\": "app/"
         }
     },
     "authors": [
         {
             "name": "Marlon Prado",
             "email": "marlonprado04@gmail.com.br"
-        },
-        {
-            "name": "Ghianluca",
-            "email": "ghianluca@gmail.com"
         }
     ],
     "require": {}

@@ -1,6 +1,5 @@
 <?php
 
-namespace Coderix\Hamburguerix\Models\Enums;
 
 # Status da comanda
 enum OrderStatus: string
