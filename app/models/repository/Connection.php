@@ -6,7 +6,7 @@ namespace Coderix\Hamburguerix\Models\Repository;
 use PDO;
 
 // Importando arquivo de configuração do banco 3
-require_once dirname(__DIR__, 3) . "/Utils/Config.php";
+require_once dirname(__DIR__, 2) . "/utils/Config.php";
 
 class Connection
 {

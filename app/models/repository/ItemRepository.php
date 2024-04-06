@@ -5,7 +5,7 @@ namespace Coderix\Hamburguerix\Models\Repository;
 use PDO;
 
 // Adiciona autoload
-require_once dirname(__DIR__, 3) . "/vendor/autoload.php";
+require_once dirname(__DIR__, 4) . "/vendor/autoload.php";
 
 class ItemRepository
 {
